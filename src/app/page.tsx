@@ -55,7 +55,7 @@ export default function Home() {
           </h2>
           <div className="divider slide-in-up delay-2" />
           <p className="section-desc slide-in-up delay-2">
-            O selecție atent aleasă a celor mai spectaculoase automobile pe care am avut privilegiul să le fotografiem.
+            O colecție atent aleasă a celor mai spectaculoase automobile pe care am avut privilegiul să le fotografiez.
           </p>
         </div>
 
