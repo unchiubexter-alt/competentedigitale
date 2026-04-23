@@ -18,7 +18,7 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { href: "/home", label: "Acasa" },
+    { href: "/", label: "Acasa" },
     { href: "/gallery", label: "Galerie" },
     { href: "/cars", label: "Masini" },
   ];
@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <Link href="/" className="nav-logo">
-        AutoLens
+        Cars by Bistrian
       </Link>
       <button
         className="nav-toggle"
