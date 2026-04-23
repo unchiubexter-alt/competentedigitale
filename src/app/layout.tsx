@@ -6,9 +6,9 @@ import Particles from "@/components/Particles";
 import ScrollAnimator from "@/components/ScrollAnimator";
 
 export const metadata: Metadata = {
-  title: "AutoLens — Car Photography",
+  title: "Cars By Bistrian — Fotografie Auto",
   description:
-    "Capturing automotive excellence through the lens. Premium car photography showcasing the world's finest automobiles.",
+    "Capturarea excelenței auto prin obiectiv. Fotografie auto premium care evidențiază cele mai impresionante automobile din lume.",
 };
 
 export default function RootLayout({

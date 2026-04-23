@@ -18,9 +18,9 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { href: "/", label: "Home" },
-    { href: "/gallery", label: "Gallery" },
-    { href: "/cars", label: "Cars" },
+    { href: "/home", label: "Acasa" },
+    { href: "/gallery", label: "Galerie" },
+    { href: "/cars", label: "Masini" },
   ];
 
   return (

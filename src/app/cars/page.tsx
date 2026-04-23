@@ -6,16 +6,16 @@ const cars = [
     model: "911 GT3 RS",
     year: "2024",
     image:
-      "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=900&q=80",
+      "https://images.unsplash.com/photo-1744278187074-c43c4bf0fa22?q=80&w=900",
     description:
-      "The pinnacle of naturally aspirated Porsche engineering. The GT3 RS is a track weapon disguised as a road car, featuring a 4.0L flat-six that screams to 9,000 RPM.",
+      "Apogeul ingineriei Porsche aspirate natural. GT3 RS este o „armă” de circuit deghizată într-o mașină de stradă, având un motor boxer de 4.0L cu șase cilindri care urcă până la 9.000 RPM.",
     specs: {
       hp: "518",
-      torque: "346 lb-ft",
-      zeroToSixty: "3.2s",
-      topSpeed: "184 mph",
+      torque: "346 nm",
+      zeroToHundred: "3.2s",
+      topSpeed: "296 km/h",
       engine: "4.0L Flat-6",
-      weight: "3,268 lbs",
+      weight: "1482 kg",
     },
   },
   {
@@ -23,16 +23,16 @@ const cars = [
     model: "Aventador SVJ",
     year: "2023",
     image:
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=900&q=80",
+      "https://images.unsplash.com/photo-1676113125191-c4237fbe7ebc?q=80&w=900",
     description:
-      "The most extreme Aventador ever built. With active aerodynamics and a screaming V12, the SVJ holds the Nürburgring production car lap record.",
+      "Cel mai extrem Aventador construit vreodată. Cu aerodinamică activă și un V12 care urlă, SVJ deține recordul de tur pentru mașini de serie pe Nürburgring.",
     specs: {
       hp: "770",
-      torque: "531 lb-ft",
-      zeroToSixty: "2.8s",
-      topSpeed: "217 mph",
+      torque: "531 nm",
+      zeroToHundred: "2.8s",
+      topSpeed: "350 km/h",
       engine: "6.5L V12",
-      weight: "3,362 lbs",
+      weight: "1524 kg",
     },
   },
   {
@@ -42,14 +42,14 @@ const cars = [
     image:
       "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900&q=80",
     description:
-      "A tribute to Ferrari's most powerful V8 ever. The F8 Tributo combines breathtaking performance with stunning Italian design and aerodynamic excellence.",
+      "Un omagiu adus celui mai puternic V8 produs vreodată de Ferrari. F8 Tributo combină performanțe uluitoare cu design italian spectaculos și excelență aerodinamică.",
     specs: {
       hp: "710",
-      torque: "568 lb-ft",
-      zeroToSixty: "2.9s",
-      topSpeed: "211 mph",
+      torque: "568 nm",
+      zeroToHundred: "2.9s",
+      topSpeed: "340 km/h",
       engine: "3.9L Twin-Turbo V8",
-      weight: "3,164 lbs",
+      weight: "1435 kg",
     },
   },
   {
@@ -57,16 +57,16 @@ const cars = [
     model: "M4 Competition",
     year: "2024",
     image:
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=900&q=80",
+      "https://images.unsplash.com/photo-1728060839159-f828a58cdaef?q=80&w=900",
     description:
-      "The M4 Competition xDrive delivers explosive performance with all-wheel drive confidence. A perfect blend of daily usability and track capability.",
+      "M4 Competition xDrive oferă performanțe explozive, alături de încrederea tracțiunii integrale. Un echilibru perfect între utilizarea zilnică și capabilitățile de circuit.",
     specs: {
       hp: "503",
-      torque: "479 lb-ft",
-      zeroToSixty: "3.4s",
-      topSpeed: "180 mph",
+      torque: "479 nm",
+      zeroToHundred: "3.4s",
+      topSpeed: "290 km/h",
       engine: "3.0L Twin-Turbo I6",
-      weight: "3,830 lbs",
+      weight: "1737 kg",
     },
   },
   {
@@ -74,16 +74,16 @@ const cars = [
     model: "GT Black Series",
     year: "2023",
     image:
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=900&q=80",
+      "https://images.unsplash.com/photo-1758563920452-5d54dc949d34?q=80&w=900",
     description:
-      "The most powerful AMG V8 production car ever. The GT Black Series is a road-legal race car with flat-plane crank technology and extreme aero.",
+      "Cel mai puternic V8 AMG de serie produs vreodată. GT Black Series este o mașină de curse legală pentru stradă, cu tehnologie flat-plane crank și aerodinamică extremă.",
     specs: {
       hp: "720",
-      torque: "590 lb-ft",
-      zeroToSixty: "3.1s",
-      topSpeed: "202 mph",
+      torque: "590 nm",
+      zeroToHundred: "3.1s",
+      topSpeed: "325 km/h",
       engine: "4.0L Twin-Turbo V8",
-      weight: "3,494 lbs",
+      weight: "1584 kg",
     },
   },
   {
@@ -91,16 +91,16 @@ const cars = [
     model: "Mustang GT500",
     year: "2024",
     image:
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=900&q=80",
+      "https://images.unsplash.com/photo-1753475560073-597230a4fd5e?q=80&w=900",
     description:
-      "The most powerful street-legal Ford ever. The Shelby GT500 packs a supercharged 5.2L V8 that delivers earth-shaking American muscle performance.",
+      "Cel mai puternic Ford legal pentru stradă creat vreodată. Shelby GT500 este echipat cu un V8 de 5.2L supraalimentat care oferă performanțe brute, tipice muscle car-urilor americane.",
     specs: {
       hp: "760",
-      torque: "625 lb-ft",
-      zeroToSixty: "3.3s",
-      topSpeed: "180 mph",
+      torque: "625 nm",
+      zeroToHundred: "3.3s",
+      topSpeed: "290 km/h",
       engine: "5.2L Supercharged V8",
-      weight: "4,171 lbs",
+      weight: "1891 kg",
     },
   },
 ];
@@ -119,14 +119,13 @@ export default function CarsPage() {
         />
         <div className="page-header-overlay" />
         <div className="page-header-content">
-          <p className="section-label slide-in-up">The Collection</p>
+          <p className="section-label slide-in-up">Colectia</p>
           <h1 className="slide-in-up delay-1">
-            <span className="gradient-text">Our Cars</span>
+            <span className="gradient-text">Masinile</span>
           </h1>
           <div className="divider slide-in-up delay-2" />
           <p className="slide-in-up delay-3">
-            Detailed profiles of every machine in our portfolio, complete with
-            specs and photography notes.
+            Profiluri detaliate pentru fiecare mașină din portofoliul nostru, completate cu specificații și note despre fotografii.
           </p>
         </div>
       </section>
@@ -170,17 +169,17 @@ export default function CarsPage() {
                 <div className="spec-grid">
                   <div className="spec-item">
                     <div className="spec-item-value">{car.specs.hp}</div>
-                    <div className="spec-item-label">Horsepower</div>
+                    <div className="spec-item-label">Cai putere</div>
                   </div>
                   <div className="spec-item">
                     <div className="spec-item-value">{car.specs.torque}</div>
-                    <div className="spec-item-label">Torque</div>
+                    <div className="spec-item-label">Cuplu</div>
                   </div>
                   <div className="spec-item">
                     <div className="spec-item-value">
-                      {car.specs.zeroToSixty}
+                      {car.specs.zeroToHundred}
                     </div>
-                    <div className="spec-item-label">0-60 MPH</div>
+                    <div className="spec-item-label">0-100 KM/H</div>
                   </div>
                   <div className="spec-item">
                     <div className="spec-item-value">{car.specs.topSpeed}</div>
@@ -188,11 +187,11 @@ export default function CarsPage() {
                   </div>
                   <div className="spec-item">
                     <div className="spec-item-value">{car.specs.engine}</div>
-                    <div className="spec-item-label">Engine</div>
+                    <div className="spec-item-label">Motor</div>
                   </div>
                   <div className="spec-item">
                     <div className="spec-item-value">{car.specs.weight}</div>
-                    <div className="spec-item-label">Weight</div>
+                    <div className="spec-item-label">Greutate</div>
                   </div>
                 </div>
               </div>

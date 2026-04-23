@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const galleryItems = [
   {
-    src: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1744278187074-c43c4bf0fa22?q=80&w=900",
     title: "Porsche 911 GT3",
     subtitle: "Golden Hour Session",
     classes: "tall",
   },
   {
-    src: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1676113125191-c4237fbe7ebc?q=80&w=900",
     title: "Lamborghini Aventador",
     subtitle: "Storm Chase",
     classes: "",
@@ -20,20 +20,20 @@ const galleryItems = [
     classes: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1728060839159-f828a58cdaef?q=80&w=900",
     title: "BMW M4 Competition",
     subtitle: "Urban Night",
     classes: "wide",
   },
   {
-    src: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1758563920452-5d54dc949d34?q=80&w=900",
     title: "Mercedes-AMG GT",
     subtitle: "Desert Shoot",
     classes: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=900&q=80",
-    title: "Ford Mustang GT",
+    src: "https://images.unsplash.com/photo-1753475560073-597230a4fd5e?q=80&w=900",
+    title: "Ford Mustang GT500",
     subtitle: "American Muscle",
     classes: "tall",
   },
@@ -44,13 +44,13 @@ const galleryItems = [
     classes: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=900",
     title: "Audi R8 V10",
     subtitle: "Mountain Pass",
     classes: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1525609004556-c46c6c5104b8?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1584273421792-84b448728b38?q=80&w=900",
     title: "Nissan GT-R",
     subtitle: "Neon City",
     classes: "wide",
@@ -71,13 +71,13 @@ export default function GalleryPage() {
         />
         <div className="page-header-overlay" />
         <div className="page-header-content">
-          <p className="section-label slide-in-up">Our Portfolio</p>
+          <p className="section-label slide-in-up">Portofoliu</p>
           <h1 className="slide-in-up delay-1">
-            <span className="gradient-text">The Gallery</span>
+            <span className="gradient-text">Galeria</span>
           </h1>
           <div className="divider slide-in-up delay-2" />
           <p className="slide-in-up delay-3">
-            A curated collection of our finest automotive photography work.
+            O colecție atent selecționată a celor mai reușite lucrări de fotografie auto din portofoliu.
           </p>
         </div>
       </section>
@@ -111,31 +111,30 @@ export default function GalleryPage() {
         <div className="section-header">
           <p className="section-label slide-in-up">Behind The Scenes</p>
           <h2 className="section-title slide-in-up delay-1">
-            <span className="gradient-text">How We Shoot</span>
+            <span className="gradient-text">Cum fotografiem</span>
           </h2>
           <div className="divider slide-in-up delay-2" />
           <p className="section-desc slide-in-up delay-3">
-            Every photo session is carefully planned — from scouting locations to
-            chasing the perfect light conditions.
+            Fiecare ședință foto este planificată cu atenție — de la alegerea locațiilor până la căutarea condițiilor perfecte de lumină.
           </p>
         </div>
 
         <div className="stats">
           <div className="stat-item slide-in-up">
             <div className="stat-number">01</div>
-            <div className="stat-label">Scout Location</div>
+            <div className="stat-label">Locatia</div>
           </div>
           <div className="stat-item slide-in-up delay-1">
             <div className="stat-number">02</div>
-            <div className="stat-label">Plan The Light</div>
+            <div className="stat-label">Lumina</div>
           </div>
           <div className="stat-item slide-in-up delay-2">
             <div className="stat-number">03</div>
-            <div className="stat-label">Capture Moments</div>
+            <div className="stat-label">Capturarea momentului</div>
           </div>
           <div className="stat-item slide-in-up delay-3">
             <div className="stat-number">04</div>
-            <div className="stat-label">Post-Process</div>
+            <div className="stat-label">Editare</div>
           </div>
         </div>
       </section>
