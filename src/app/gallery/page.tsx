@@ -14,7 +14,7 @@ const galleryItems = [
     classes: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900&q=80",
+    src: "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?q=80&w=800",
     title: "Ferrari F8 Tributo",
     subtitle: "Coastal Road",
     classes: "",
