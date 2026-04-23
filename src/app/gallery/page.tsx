@@ -115,7 +115,7 @@ export default function GalleryPage() {
           </h2>
           <div className="divider slide-in-up delay-2" />
           <p className="section-desc slide-in-up delay-3">
-            Fiecare ședință foto este planificată cu atenție — de la alegerea locațiilor până la căutarea condițiilor perfecte de lumină.
+            Fiecare ședință foto este planificată cu atenție — incepând cu alegerea locațiilor pentru shooting, până la căutarea găsirea condițiilor perfecte de lumină.
           </p>
         </div>
 
