@@ -40,7 +40,7 @@ const cars = [
     model: "F8 Tributo",
     year: "2024",
     image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=900&q=80",
+      "https://images.unsplash.com/photo-1655593972695-919eb269b0df?q=80&w=900",
     description:
       "Un omagiu adus celui mai puternic V8 produs vreodată de Ferrari. F8 Tributo combină performanțe uluitoare cu design italian spectaculos și excelență aerodinamică.",
     specs: {
